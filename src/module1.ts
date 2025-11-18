@@ -16,6 +16,8 @@ async function main() {
   const balance = (await getBalanceUsingWeb3(address)) / LAMPORTS_PER_SOL;
 
   console.log(balance + ' SOL');
+
+  console.log('hello');
 }
 
 main();
